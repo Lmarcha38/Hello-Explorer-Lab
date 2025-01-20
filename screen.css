@@ -1,9 +1,9 @@
 :root {
-    --col1: #0D92F4;
+    --col1: #BE3144;
     --col2: #F95454;
-    --col3: #77cdff;
-    --col4: #C62E2E;
-    --colText: #27374D;
+    --col3: #E17564;
+    --col4: #872341;
+    --colText: #09122C;
 }
 
 html {
@@ -15,7 +15,7 @@ body {
     margin: 40px;
     padding: 40px;
     color: var(--colText);
-    border: 10px dashed var(--col1);
+    border: 10px double var(--col1);
     background: var(--col3);
 }
 
