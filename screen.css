@@ -1,4 +1,39 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+:root {
+    --col1: #0D92F4;
+    --col2: #F95454;
+    --col3: #77cdff;
+    --col4: #C62E2E;
+    --colText: #27374D;
+}
+
+html {
+    background: var(--col4);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: var(--colText);
+    border: 10px dashed var(--col1);
+    background: var(--col3);
+}
+
+h1{
+    font-size: 3em;
+    padding-left: 20%;
+}
+
+p {
+    padding-left: 20%;
+    line-height: 1.4em;
+    width: 60%;
+}
+
+img {
+    width: 30%;
+}
+
+.imgs {
+    margin-left: 20%;
 }
